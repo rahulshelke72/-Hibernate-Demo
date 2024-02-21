@@ -1,0 +1,43 @@
+	
+		Alien a1 = new Alien();
+		a1.setAid(1);
+		a1.setAname("Navin");
+		
+		Alien a2 = new Alien();
+		a2.setAid(2);
+		a2.setAname("Rahul");
+		
+		Alien a3 = new Alien();
+		a3.setAid(3);
+		a3.setAname("Mayank");
+		
+		Laptop l1 = new Laptop();
+		l1.setLid(101);
+		l1.setBrand("Dell");
+		l1.setPrice(1000);
+		l1.setAlien(a1);
+		
+		Laptop l2 = new Laptop();
+		l2.setLid(102);
+		l2.setBrand("Apple");
+		l2.setPrice(2000);
+		l2.setAlien(a3);
+		
+		Laptop l3 = new Laptop();
+		l3.setLid(103);
+		l3.setBrand("Asus");
+		l3.setPrice(800);
+		l3.setAlien(a1);
+		
+		Laptop l4 = new Laptop();
+		l4.setLid(104);
+		l4.setBrand("Acer");
+		l4.setPrice(1500);
+		l4.setAlien(a3);
+		
+		Laptop l5 = new Laptop();
+		l5.setLid(105);
+		l5.setBrand("Samsung");
+		l5.setPrice(1400);
+		l5.setAlien(a1);	
+		
